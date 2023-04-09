@@ -1,0 +1,24 @@
+.btn {
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(200, 89, 108);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+ }
+
+.btn:hover {
+    background-color: rgb(205, 109, 125);
+}
+
+
+.digit {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+

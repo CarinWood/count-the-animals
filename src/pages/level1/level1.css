@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.level1-container {
+     background-image: url('../../assets/backgrounds/pink.jpg'); 
+
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+/*     background-color: rgb(212, 196, 198); */
+    background-color: rgb(236, 195, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-box {
+    width: 740px;
+    height: 320px;
+    background-color: lightgray;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buttons {
+    width: 740px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-box {
+    width: 600px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 80px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 4%;
+    width: 100px;
+    height: 500px;
+}
+
+.outline-star, .filled-star {
+    font-size: 40px;
+    color: goldenrod;
+    margin: 14px 0px;
+}
+
+.shake {
+    animation: shake 0.7s ease-in-out ;
+}
+
+
+
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate(0.6em);
+
+    }
+
+    10%, 30%, 50% {
+        transform: translate(-.2em);
+    }
+
+    70%, 100% {
+        transform: translate(0);
+    }
+ 
+}
+
+.instructions {
+    font-family: "Roboto";
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}
+
+.flower-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .flower-box li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    color: white;
+    opacity: 0.9;
+    font-family:"Raleway";
+    font-size: 60px;
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+  }
+  
+  .flower-box li:nth-child(1) {
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+  
+  .flower-box li:nth-child(2) {
+    left: 8%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+  }
+  
+  .flower-box li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+  }
+  
+  .flower-box li:nth-child(4) {
+    left: 43%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+  }
+  
+  .flower-box li:nth-child(5) {
+    left: 64%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+  }
+  
+  .flower-box li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+  }
+  
+  @keyframes animate {
+      0% {
+        transform: translateY(-800px);
+        opacity: 1;
+      }
+  
+      100% {
+        transform: translateY(-0);
+        opacity: 0;
+     
+      }
+  }
+
+.flower {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 100%;
+    left: 3%;
+
+}
+
+
+
