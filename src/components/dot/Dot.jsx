@@ -15,6 +15,6 @@ export const Dot = ({num, id}) => {
 
 
   return (
-    <div className={isDragging? 'dot hidden': 'dot'} ref={drag}>{num}</div>
+    <div className='dot' ref={drag}>{num}</div>
   )
 }
