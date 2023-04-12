@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .level1-container {
-     background-image: url('../../assets/backgrounds/pink.jpg'); 
-
+    background-image: url('../../assets/backgrounds/pink.jpg'); 
     background-position: center;
     background-size: contain;
     width: 100%;
@@ -57,6 +56,10 @@
 
 .img {
     width: 80px;
+}
+
+.elephant-img {
+    width: 110px;
 }
 
 .stars {
@@ -195,6 +198,25 @@
     top: 100%;
     left: 3%;
 
+}
+
+.game-2 {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.game-4 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.game-5 {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 

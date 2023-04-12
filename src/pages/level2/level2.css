@@ -1,0 +1,82 @@
+.level2-container {
+    background-image: url('../../assets/backgrounds/pink.jpg'); 
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-img {
+    width: 45px;
+    margin: 0px 10px;
+}
+
+.image-box-2 {
+    width: 695px;
+    height: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.left-box, .middle-box, .right-box {
+    width: 280px;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.left-box {
+    justify-content: center;
+}
+
+.middle-box {
+    justify-content: center;
+}
+
+.round-dot-1, .round-dot-2, .round-dot-3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+    background-color: transparent;
+    border: 3px dotted white;
+    margin-left: -22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-area {
+    width: 400px;
+    height: 80px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0px 30px;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    cursor: grab;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
